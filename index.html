@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>JK Movies</title>
+</head>
+<body>
+    <header>
+        <div id="logo-content">
+            <img src="images/logo.png" class="logo" alt="logo">
+            MOVIES
+        </div>
+       
+        <div id="nav">
+            <select class="genre">
+                <option selected disabled>Genre</option>
+                <option value="volvo"><a href="#home">Action</a></option>
+                <option value="saab"><a href="#home">Drama</a></option>
+                <option value="mercedes"><a href="#home">Comedy</a></option>
+                <option value="audi"><a href="#home">Thriller</a></option>
+            </select>
+        </div>
+    </header>   
+
+    <main>
+        <div id="search-bar">
+            <form class="form">
+                <input type="text" class="search" placeholder="Search...">
+                <button class="submit">
+                    <a class="fas fa-search"></a>
+                </button>
+            </form>
+        </div>
+
+        <div id="movies"></div>
+
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

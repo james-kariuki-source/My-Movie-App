@@ -1,0 +1,72 @@
+@font-face {
+    font-family: alex-brush;
+    src: url(../fonts/alex-brush.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px 50px;
+}
+
+header{
+    background-color: #FFE500;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+#logo-content{
+    background-color: #000000;
+    color: #17F018;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.logo{
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+}
+
+#nav{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.genre{
+    background-color: #000000;
+    color: #17F018;
+    border: none;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.genre:hover{
+    background-color: #17F018;
+    color: #000000;
+    box-shadow: 2px 5px 20px 2px #000000;
+}
+
